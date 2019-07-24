@@ -18,9 +18,12 @@ Links, tutorials, scripts, and anything else useful for them CTFs
   * Contains many more untimed CTFs not listed here. variable quality
 * [pwnable.xyz](https://pwnable.xyz/)
 * [cryptopals](https://cryptopals.com/)
-* [MITRE github](https://github.com/mitre-cyber-academy)
-  * Links to repos containing old problems from MITRE CTFs.
-  * Keep an eye out for other archives of old problems like this one.
+* [hackable.ca](https://hackable.ca/)
+* [gracker](http://gracker.org/)
+* [MITRE](https://mitrecyberacademy.org/practice/
+* [CSAW archive](https://github.com/osirislab/CSAW-CTF-2018-Quals)
+  * Many CTFs will archive their challenges after the fact
+  * Keep an eye out for these. Looking through these and their writeups is a great way to learn fast
 
 ### Tutorials and information
 * [Our CTF course](https://zelinsky.github.io/CTF-Course/)
