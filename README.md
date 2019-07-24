@@ -20,7 +20,7 @@ Links, tutorials, scripts, and anything else useful for them CTFs
 * [cryptopals](https://cryptopals.com/)
 * [hackable.ca](https://hackable.ca/)
 * [gracker](http://gracker.org/)
-* [MITRE](https://mitrecyberacademy.org/practice/
+* [MITRE](https://mitrecyberacademy.org/practice/)
 * [CSAW archive](https://github.com/osirislab/CSAW-CTF-2018-Quals)
   * Many CTFs will archive their challenges after the fact
   * Keep an eye out for these. Looking through these and their writeups is a great way to learn fast
@@ -39,6 +39,8 @@ Links, tutorials, scripts, and anything else useful for them CTFs
   * Need to grasp the basics of a language? Complete these challenges in the language of your choosing.
 * [LiveOverflow](https://liveoverflow.com/)
   * Dude has CTF writeups as well as stuff on pentesting.
+* [r/SecurityCTF](https://www.reddit.com/r/securityCTF/)
+  * Subreddit on CTFs. Helpful stuff gets posted every so often
 * [prof.ninja](https://crypto.prof.ninja/)
   * Andy's crypto notes
 * [Colin's pwning tutorial](https://github.com/blue-hens/beginner_guide_to_pwn)
