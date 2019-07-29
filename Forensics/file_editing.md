@@ -1,4 +1,4 @@
-# Editing bytes with Radare: Example
+# Editing magic bytes with Radare: Example
 Let's take a look at a peaCTF 2019 problem: E.xtr
 We are given a file called E.xtr, and the only hint is "Flag is formatted as {plain_text}"
 
@@ -54,7 +54,7 @@ Whether you're viewing using strings or vim or radare or whatever, some specific
 
 Looking up any of these on their own is fruitless, but if you prepend "file" to your search, you get better results. Looking up "[file IHDR](https://duckduckgo.com/?q=file+IHDR&atb=v129-1&ia=web)", the first result we get is the [specification for .PNG files](http://www.libpng.org/pub/png/spec/1.2/PNG-Chunks.html).
 
-![png specification](./specification.png)
+![png specification](./images/specification.png)
 
 So we have a .PNG file, but why doesn't anything see it as one? You can search the .PNG specification to find out, but to make it plain: magic bytes. These are bytes which files use to identify themselves. Without the bytes, most file viewers have no idea what they are looking at.
 
@@ -79,7 +79,7 @@ Let's now open Visual Mode
 [0x00000000]> V
 ```
 We are presented with the following screen:
-![radare example](./example.png)
+![radare example](./images/example.png)
 
 Simply press i to enter edit mode, and a cursor will appear. Let's insert the values!
 The values provided to us were in decimal, so we will need to translate them into hexadecimal values for us to insert. Or you could just look at the [magic bytes compendium on wikipedia](https://en.wikipedia.org/wiki/List_of_file_signatures) and find it there.
@@ -89,10 +89,10 @@ The values provided to us were in decimal, so we will need to translate them int
 Just move your cursor to the start block and type in these bytes (2 at a time)
 
 The result should look like this:
-![radare example after editing](./example2.png)
+![radare example after editing](./images/example2.png)
 
 Press escape a few times until you result to the command prompt, then type 'quit' to exit radare.
 
 Just rename the file to something.png and you can open it! Image sensored for go-do-it-yourself's sake. The original file is included in this repo.
 
-![the flag](./finished.png)
+![the flag](./images/finished.png)
