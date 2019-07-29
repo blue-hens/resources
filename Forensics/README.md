@@ -1,4 +1,4 @@
-#Forensics
+# Forensics
 File format analysis and the like
 
-Check out our [example](./file_editing.md) on magic bytes and byte editing. 
+Check out our [example](./magic_byte_example.md) on magic bytes and byte editing. 

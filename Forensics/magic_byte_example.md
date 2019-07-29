@@ -91,7 +91,7 @@ Just move your cursor to the start block and type in these bytes (2 at a time)
 The result should look like this:
 ![radare example after editing](./images/example2.png)
 
-Press escape a few times until you result to the command prompt, then type 'quit' to exit radare.
+Press q to exit insert mode, then q again to exit visual mode. On the command prompt, type q and enter to close out of radare.
 
 Just rename the file to something.png and you can open it! Image sensored for go-do-it-yourself's sake. The original file is included in this repo.
 
