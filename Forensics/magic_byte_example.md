@@ -27,7 +27,7 @@ File Permissions                : rwxrwxrwx
 Error                           : Unknown file type
 ```
 
-No dice. "zlib compressed data" shows up in a lot of files, and isn't much help here. Exiftool isn't showing anything special.
+No dice. "zlib compressed data" shows up in a lot of files. It isn't much help, but we can add it to the evidence pile. Exiftool isn't showing anything special.
 
 Since that didn't work, let's look closer. If we call strings on the file, hopefully we can find additional information.
 
